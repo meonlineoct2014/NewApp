@@ -14,7 +14,7 @@
         android:hint="enter user name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="User name" />
+        android:text="" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -24,4 +24,10 @@
         android:hint="enter password"
         android:inputType="textPassword"
         android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go inside" />
 </LinearLayout>
